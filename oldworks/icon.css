@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #efefef;
+}
+header{
+    background-color: blue;
+    padding: 20px;
+    text-align: center;
+}
+header div ul li{
+    list-style-type: none;
+    display: inline;
+    padding: 10px 20px;
+    justify-content: space-around;
+    font-size: 25px;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+.fa-brands{
+    padding: 7px;
+    color: #fff;
+    font-size: 25px;
+}
+button {
+    padding: 20px 25px; 
+    font-size: 25px;
+    background-color:greenyellow;
+    outline: none;
+    border: 0px solid;
+    border-radius: 15px;
+}
+button:last-child{
+    background-color: rgb(99, 241, 234);
+}
+.fa-solid{
+    
+    padding: 7px;
+    color: #000;
+    font-size: 25px;
+}
+
+
+footer{
+    padding: 30px;
+    font-size: 25px;
+    background-color: blue;
+    text-align: center;
+}
+
+
+@media (max-width : 760px) {
+    header div ul{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        font-size: 20px;
+    }   
+    button {
+        padding: 15px 20px; 
+        font-size: 18px;
+        background-color:greenyellow;
+        outline: none;
+        border: 0px solid;
+        border-radius: 10px;
+    }
+    
+    .fa-solid{
+        
+        padding: 5px;
+        color: #000;
+        font-size: 18px;
+    }
+    
+}
+
+
+
+
+@media (max-width : 420px) {
+    header div ul{
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 20px;
+    }   
+    button {
+        padding: 20px 25px; 
+        font-size: 12px;
+        background-color:greenyellow;
+        outline: none;
+        border: 0px solid;
+        border-radius: 12px;
+    }
+    .fa-solid{
+        
+        padding: 5px;
+        color: #000;
+        font-size: 12px;
+    }
+    
+}
